@@ -2,9 +2,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #e6e6e6;
 }
-header{
-    color: #ff6e1a;
-}
+svg{color: #ff6e1a;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 280%);}
 label{
     color: #9e9c9c;
     font-family: sans-serif;
@@ -15,9 +19,9 @@ form  {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: -310px auto 0;
+    margin: -340px auto 0;
     width: 250px;
-    height: 350px;
+    height: 420px;
     padding: 30px;
     border-radius: 10px;
     background-color: #faf8f2;
@@ -30,6 +34,19 @@ input[type=text], input[type=password] {
     border-radius: 8px;
     margin-bottom: 16px;
     background-color: #dfdfdf;
+}
+button{ background-color: #ff7f34;
+    font-size: 14pt;
+    height: 46px;
+    font-family: sans-serif;
+    color: #ffffff;
+    border: none;
+    padding: 12px 89px;
+    border-radius: 7px;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+
 }
 input[type=submit] {
     background-color: #ff7f34;
@@ -53,7 +70,7 @@ h1 {
     justify-content: center; 
     align-items: center; 
     font-size: 18pt;
-    margin: 240px auto 0;
+    margin: 120px auto 0;
     width: 250px;
     height: 300px;
     padding:30px;
